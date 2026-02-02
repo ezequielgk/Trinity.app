@@ -26,30 +26,24 @@ export { data };
 export default defineLoader({
   async load(): Promise<AppRelease> {
     if (fs.existsSync(CACHE_PATH)) {
-      console.log("Release data cache found, loading from cache");
-      const cachedData = JSON.parse(fs.readFileSync(CACHE_PATH, "utf-8"));
-      return cachedData;
+      return JSON.parse(fs.readFileSync(CACHE_PATH, "utf-8"));
     }
 
-    const [stable, nightly] = await Promise.all([
-      octokit.repos.getLatestRelease({
-        owner: "TrinityLauncherApp",
-        repo: "TrinityLauncher",
-      }),
-      octokit.repos.getLatestRelease({
-        owner: "TrinityLauncherApp",
-        repo: "TrinityLauncher-nightly",
-      }),
-    ]);
+    try {
+      const [stable, nightly] = await Promise.all([
+        octokit.repos.getLatestRelease({ owner: "TrinityLauncherApp", repo: "TrinityLauncher" }),
+        octokit.repos.getLatestRelease({ owner: "TrinityLauncherApp", repo: "TrinityLauncher-nightly" }),
+      ]);
 
-    const releaseData = { stable: stable.data, nightly: nightly.data };
-
-    if (isDev) {
-      console.log("Creating release cache");
-      fs.mkdirSync(CACHE_DIR, { recursive: true });
-      fs.writeFileSync(CACHE_PATH, JSON.stringify(releaseData, null, 2), "utf-8");
+      const releaseData = { stable: stable.data, nightly: nightly.data };
+      if (isDev) {
+        fs.mkdirSync(CACHE_DIR, { recursive: true });
+        fs.writeFileSync(CACHE_PATH, JSON.stringify(releaseData, null, 2), "utf-8");
+      }
+      return releaseData;
+    } catch (e) {
+      console.error("Error cargando releases:", e);
+      return { stable: {} as any, nightly: {} as any }; // Retorna objeto vacío si falla
     }
-
-    return releaseData;
   },
 });

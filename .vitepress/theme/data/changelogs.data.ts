@@ -21,23 +21,24 @@ export { data };
 export default defineLoader({
   async load(): Promise<GitHubReleaseList> {
     if (fs.existsSync(CACHE_PATH)) {
-      console.log("Changelogs data cache found, loading from cache");
-      const cachedData = JSON.parse(fs.readFileSync(CACHE_PATH, "utf-8"));
-      return cachedData;
+      return JSON.parse(fs.readFileSync(CACHE_PATH, "utf-8"));
     }
 
-    const releases = await octokit.paginate(octokit.repos.listReleases, {
-      owner: "TrinityLauncherApp",
-      repo: "TrinityLauncher",
-      per_page: 100,
-    });
+    try {
+      const releases = await octokit.paginate(octokit.repos.listReleases, {
+        owner: "TrinityLauncherApp",
+        repo: "TrinityLauncher",
+        per_page: 100,
+      });
 
-    if (isDev) {
-      console.log("Creating changelogs cache");
-      fs.mkdirSync(CACHE_DIR, { recursive: true });
-      fs.writeFileSync(CACHE_PATH, JSON.stringify(releases, null, 2), "utf-8");
+      if (isDev) {
+        fs.mkdirSync(CACHE_DIR, { recursive: true });
+        fs.writeFileSync(CACHE_PATH, JSON.stringify(releases, null, 2), "utf-8");
+      }
+      return releases;
+    } catch (e) {
+      console.error("Error cargando changelogs:", e);
+      return [] as any; // Retorna lista vacía si falla
     }
-
-    return releases;
   },
 });
