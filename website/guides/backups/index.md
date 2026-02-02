@@ -10,10 +10,10 @@ Backups in **Trinity Launcher** are compatible between different versions of the
 
 ::: tip How to create a backup
 
-1. Go to <nav to="data" />.
-1. Select **Create data backup** and choose a location to save it.
+1. Go to **Settings → Data**.
+2. Select **Create data backup** and choose a location to save it.
 
-<img src="/manuals/guides/backups/backup.png" alt="Backup and Restore" width="500"/>
+![Backup and Restore](./backup.png)
 :::
 
 ## General backup details
@@ -28,7 +28,7 @@ Backups in **Trinity Launcher** are compatible between different versions of the
 
 ### What's not included in a backup?
 
-- **Downloaded** chapters
+- **Downloaded chapters**
 
 ## Restoring a backup
 
@@ -42,7 +42,7 @@ It is highly recommended to enable automatic backups to ensure you can recover i
 
 ::: tip How to enable automatic backups
 
-1. Go to <nav to="periodic_backups" />.
-1. Set a **backup creation frequency** to schedule automatic backups.
+1. Go to **Settings → Periodic Backups**.
+2. Set a **backup creation frequency** to schedule automatic backups.
    This way, you can recover from catastrophic failures.
 :::
