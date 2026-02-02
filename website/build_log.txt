@@ -1,0 +1,39 @@
+
+> trinity-launcher-website@1.0.0 build
+> vitepress build
+
+
+  vitepress v1.6.4
+
+- building client + server bundles...
+Release data cache found, loading from cache
+Changelogs data cache found, loading from cache
+
+
+(!) Found dead link /manuals/guides/synchronization/index in file manuals/faq/general/index.md
+(!) Found dead link /manuals/guides/backups/index in file manuals/faq/general/index.md
+(!) Found dead link /manuals/guides/troubleshooting/index in file guides/troubleshooting/common-issues/index.md
+(!) Found dead link /manuals/guides/troubleshooting/index in file guides/troubleshooting/common-issues/index.md
+(!) Found dead link /manuals/guides/troubleshooting/diagnosis/index in file guides/troubleshooting/common-issues/index.md
+(!) Found dead link /dev/sync-server/index in file guides/synchronization/index.md
+(!) Found dead link /guides/common-issues/index in file guides/index.md
+(!) Found dead link /dev/contribute/index in file dev/minecraft/parsers-library/index.md
+(!) Found dead link /dev/overview in file dev/index.md
+(!) Found dead link /dev/shared/index in file dev/index.md
+(!) Found dead link /dev/hytale/index in file dev/index.md
+(!) Found dead link /dev/setup in file dev/index.md
+
+If this is expected, you can disable this check via config. Refer: https://vitepress.dev/reference/site-config#ignoredeadlinks
+
+x Build failed in 5.69s
+[31m✖[0m building client + server bundles...
+build error:
+[vitepress] 12 dead link(s) found.
+[vitepress] 12 dead link(s) found.
+    at Object.renderStart (file:///home/ezequiel/Github/website/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:45027:15)
+    at file:///home/ezequiel/Github/website/node_modules/rollup/dist/es/shared/node-entry.js:22426:40
+    at async Promise.all (index 0)
+    at async PluginDriver.hookParallel (file:///home/ezequiel/Github/website/node_modules/rollup/dist/es/shared/node-entry.js:22336:9)
+    at async Bundle.generate (file:///home/ezequiel/Github/website/node_modules/rollup/dist/es/shared/node-entry.js:20534:13)
+    at async file:///home/ezequiel/Github/website/node_modules/rollup/dist/es/shared/node-entry.js:23411:27
+    at async catchUnfinishedHookActions (file:///home/ezequiel/Github/website/node_modules/rollup/dist/es/shared/node-entry.js:22780:16)
