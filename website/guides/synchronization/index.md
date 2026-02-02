@@ -18,8 +18,8 @@ List of official servers:
 
 | Domain           | Location    | Status                                                   |
 | ---------------- | ----------- | -------------------------------------------------------- |
-| sync.kotatsu.app | Belarus     | ![Status](https://status.kotatsu.app/api/badge/1/status) |
-| moe.shirizu.org  | Netherlands | ![](https://status.kotatsu.app/api/badge/7/status)       |
+| sync.trinity-projects.org | Belarus     | ![Status](https://status.trinity-projects.org/api/badge/1/status) |
+| moe.shirizu.org  | Netherlands | ![](https://status.trinity-projects.org/api/badge/7/status)       |
 
 <!-- markdownlint-restore -->
 

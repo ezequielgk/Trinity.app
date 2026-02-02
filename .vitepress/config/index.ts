@@ -16,7 +16,7 @@ import generateOgImages from "./hooks/generateOgImages";
 import shortcodes from "./shortcodes";
 
 const SITE_HOST = "https://trinity-projects.org";
-const SITE_TITLE = "Trinity Projects";
+const SITE_TITLE = "Trinity";
 const SITE_TITLE_SEPARATOR = " / ";
 
 export default defineConfigWithTheme<ThemeConfig>({
@@ -57,11 +57,6 @@ export default defineConfigWithTheme<ThemeConfig>({
   themeConfig: {
     titleSeparator: SITE_TITLE_SEPARATOR,
     i18nRouting: true,
-
-    logo: {
-      light: "/logo.svg",
-      dark: "/logo-dark.svg",
-    },
 
     socialLinks: [
       { icon: { svg: telegram }, link: "https://t.me/trinity-launcherapp" },

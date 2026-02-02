@@ -46,4 +46,4 @@ The current iteration of this policy is effective as of October 2, 2023.
 
 ## Contact Us
 
-If you have any questions or suggestions about this Privacy Policy, do not hesitate to reach out to us on [our Telegram group](https://t.me/kotatsuapp).
+If you have any questions or suggestions about this Privacy Policy, do not hesitate to reach out to us on [our Telegram group](https://t.me/trinity-launcherapp).

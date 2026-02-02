@@ -17,7 +17,7 @@ Essential information to help you get set up with Trinity Launcher.
 ### Downloading Trinity Launcher
 
 1. Visit our [download](/download/) page to get the latest version of **Trinity Launcher**.
-1. After the download is complete, open the `kotatsu-{{ release.stable.tag_name }}-release.apk` file.
+1. After the download is complete, open the `trinity-launcher-{{ release.stable.tag_name }}-release.apk` file.
 1. Proceed with the installation process.
 
 ### Selecting sources depending on languages

@@ -10,7 +10,7 @@ Frequently Asked Questions
 
 ## What is Trinity Launcher?
 
-Trinity Launcher is an open-source **Android** app that lets you read any from your device - faster and easier than ever.
+Trinity Launcher is an open-source **Cross-Platform** launcher that lets you manage your games and projects - faster and easier than ever.
 
 ::: tip Disclaimer
 Trinity Launcher is not hosting any content, we are not affilated with or responsible for any source that is: slow, down, missing chapters, or has supbar image quality.
@@ -74,7 +74,7 @@ Projects using the **Trinity Launcher** name for anime streaming aren't affiliat
 No, you can't.
 
 :::tip Note
-[kotatsu-dl](https://github.com/TrinityLauncherApp/kotatsu-dl) is a Minecraft Bedrock downloader for Windows, Mac and Linux, but you can't read from it.
+We provide cross-platform support for Windows, Mac and Linux.
 :::
 
 ## Can Trinity Launcher sync across devices?

@@ -1,8 +1,8 @@
 <template>
   <div class="FeatureTitle">
     <div class="container">
-      <p class="title">What Kotatsu can do?</p>
-      <h1 class="subtitle">And here's what it does!</h1>
+      <p class="title">Why Trinity?</p>
+      <h1 class="subtitle">Built for freedom and performance.</h1>
     </div>
   </div>
 </template>

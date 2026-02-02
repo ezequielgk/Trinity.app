@@ -32,7 +32,7 @@ Follow these steps to troubleshoot and find solutions.
 If any of these solutions help, go to [Personalized Issue](#personalized-issue).
 If it is not just you, go to [Widespread Issue](#widespread-issue).
 
-If none of these solutions help, try asking in our [Telegram group](https://t.me/kotatsuapp).
+If none of these solutions help, try asking in our [Telegram group](https://t.me/trinity-launcherapp).
 
 State your app version and the source, series, and chapter with the problem.
 
@@ -58,8 +58,8 @@ These are general guidelines as each site has its specific undisclosed limits an
 
 When everyone experiences a problem, it could be with the source or app:
 
-1. Check open issues [for the app](https://github.com/TrinityLauncherApp/Trinity Launcher/issues) and/or [**parsers**](https://github.com/TrinityLauncherApp/kotatsu-parsers/issues).
-1. Check closed issues ([app](https://github.com/TrinityLauncherApp/Trinity Launcher/issues?q=is%3Aissue+is%3Aclosed)/[parsers](https://github.com/TrinityLauncherApp/kotatsu-parsers/issues?q=is%3Aissue+is%3Aclosed)) in case it's resolved but not yet released.
+1. Check open issues [for the app](https://github.com/TrinityLauncherApp/Trinity Launcher/issues) and/or [**parsers**](https://github.com/TrinityLauncherApp/trinity-parsers/issues).
+1. Check closed issues ([app](https://github.com/TrinityLauncherApp/Trinity Launcher/issues?q=is%3Aissue+is%3Aclosed)/[parsers](https://github.com/TrinityLauncherApp/trinity-parsers/issues?q=is%3Aissue+is%3Aclosed)) in case it's resolved but not yet released.
 1. If not found, create a new issue.
 
 ::: warning Warning

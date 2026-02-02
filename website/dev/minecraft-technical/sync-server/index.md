@@ -15,7 +15,7 @@ Instructions for installing the synchronization server.
 Build image container:
 
 ```bash
-docker build github.com/TrinityLauncherApp/kotatsu-syncserver.git -t kotatsuapp/syncserver
+docker build github.com/TrinityLauncherApp/trinity-syncserver.git -t trinity/syncserver
 ```
 
 Run container:
@@ -29,7 +29,7 @@ docker run -d -p 8081:8080 \
 -e DATABASE_PORT=your_db_port \
 -e JWT_SECRET=your_secret \
 --restart always \
---name kotatsu-sync kotatsuapp/syncserver
+--name trinity-sync trinity/syncserver
 ```
 
 ### Systemd
@@ -42,17 +42,17 @@ Requirements:
 Commands:
 
 ```bash
-git clone https://github.com/TrinityLauncherApp/kotatsu-syncserver.git
-cd kotatsu-syncserver && ./gradlew shadowJar
+git clone https://github.com/TrinityLauncherApp/trinity-syncserver.git
+cd trinity-syncserver && ./gradlew shadowJar
 ```
 
-Then edit file `kotatsu-sync.service`, change `replaceme` fields with your values and specify the `kotatsu-syncserver-0.0.1.jar` file location (it can be found in `build/libs` directory after buliding)
+Then edit file `trinity-sync.service`, change `replaceme` fields with your values and specify the `trinity-syncserver-0.0.1.jar` file location (it can be found in `build/libs` directory after buliding)
 
 ```bash
-cp kotatsu-sync.service /etc/systemd/system
-systemctl enable kotatsu-sync
+cp trinity-sync.service /etc/systemd/system
+systemctl enable trinity-sync
 systemctl daemon-reload
-systemctl start kotatsu-sync
+systemctl start trinity-sync
 ```
 
-For any questions, please, contact us in [Telegram group](https://t.me/kotatsuapp) or write an issue, thanks.
+For any questions, please, contact us in [Telegram group](https://t.me/trinity-launcherapp) or write an issue, thanks.

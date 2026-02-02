@@ -1,10 +1,10 @@
 ---
-title: Trinity Projects
+title: Trinity
 layout: home
 
 main:
-  title: Trinity Projects
-  text:  Open Ecosystem
+  title: Check Out
+  text:  Trinity Projects
   tagline: We build modern, free, and community-driven software focused on user freedom and privacy.
   image:
     alt: Trinity Projects Logo

@@ -26,8 +26,8 @@ Learn more in this [Wikipedia article](https://en.wikipedia.org/wiki/Scanlation)
 
 ## How do I request new sources?
 
-[Open an issue](https://github.com/TrinityLauncherApp/kotatsu-parsers/issues) on **GitHub** if not already there.
-Check the removed [parsers list](https://github.com/TrinityLauncherApp/kotatsu-parsers/issues/39) first.
+[Open an issue](https://github.com/TrinityLauncherApp/trinity-parsers/issues) on **GitHub** if not already there.
+Check the removed [parsers list](https://github.com/TrinityLauncherApp/trinity-parsers/issues/39) first.
 
 ## Why was a source removed?
 
@@ -40,4 +40,4 @@ Sources can be removed due to several reasons:
 - Reverse engineering needs.
 - Site shutdown.
 
-Find the list of removed sources [here](https://github.com/TrinityLauncherApp/kotatsu-parsers/issues/39), excluding offline sites.
+Find the list of removed sources [here](https://github.com/TrinityLauncherApp/trinity-parsers/issues/39), excluding offline sites.

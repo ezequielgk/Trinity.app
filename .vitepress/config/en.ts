@@ -5,7 +5,7 @@ import type { CustomConfig, ThemeConfig } from "../theme/types";
 import { sections } from "../theme/plugins/section";
 import { resolveBaseUrl } from "../theme/utils";
 
-export const SITE_NAME = "Trinity Projects";
+export const SITE_NAME = "Trinity";
 export const META_DESCRIPTION = "An open source launcher for Minecraft Bedrock with the ability to manage multiple instances, worlds, textures and mods.";
 
 export const searchLocale: Record<string, Partial<Omit<DefaultTheme.LocalSearchOptions, "locales">>> = {
