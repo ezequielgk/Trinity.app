@@ -13,7 +13,7 @@ Backups in **Trinity Launcher** are compatible between different versions of the
 1. Go to **Settings → Data**.
 2. Select **Create data backup** and choose a location to save it.
 
-![Backup and Restore](./backup.png)
+![Backup and Restore](/manuals/guides/backups/backup.png)
 :::
 
 ## General backup details
