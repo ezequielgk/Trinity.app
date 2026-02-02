@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Trinity Launcher Website
 
 <div align="center">
@@ -99,3 +100,6 @@ Consulta el archivo [LICENSE](LICENSE) para más detalles.
 ---
 
 <p align="center">Hecho con ❤️ por el Trinity Team</p>
+=======
+hola
+>>>>>>> 151defca83f5683bcf6bac26fc2e829732abfe64

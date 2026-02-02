@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Trinity Code of Conduct
 
 ## Our Commitment
@@ -40,3 +41,6 @@ Instances of abusive or unacceptable behavior may be reported to the project mai
 2. **Warning:** A formal warning for a serious or repeated incident, including consequences if the behavior continues.
 3. **Temporary Suspension:** A temporary ban from interacting with the community for a specified period of time.
 4. **Permanent Ban:** A permanent ban from any form of interaction within the Trinity community.
+=======
+a
+>>>>>>> 151defca83f5683bcf6bac26fc2e829732abfe64
