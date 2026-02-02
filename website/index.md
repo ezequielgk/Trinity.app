@@ -3,17 +3,17 @@ title: Trinity Projects
 layout: home
 
 main:
-  title: Check Out
-  text:  Trinity Projects
-  tagline: We are an open-source organization dedicated to building modern, free, and community-driven software. Our ecosystem focuses on user freedom, modularity, and privacy.
+  title: Trinity Projects
+  text:  Open Ecosystem
+  tagline: We build modern, free, and community-driven software focused on user freedom and privacy.
   image:
-    alt: Trinity Launcher Logo
+    alt: Trinity Projects Logo
     light: /logo-compact.svg
     dark: /logo-compact-dark.svg
   actions:
     - theme: brand
       text: Explore Projects
-      link: /download/
+      link: /projects
     - theme: alt
       text: Join Community
       link: /about/community-values

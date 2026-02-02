@@ -15,8 +15,8 @@ import generateMeta from "./hooks/generateMeta";
 import generateOgImages from "./hooks/generateOgImages";
 import shortcodes from "./shortcodes";
 
-const SITE_HOST = "https://trinity-launcher.app";
-const SITE_TITLE = "trinity-launcher.app";
+const SITE_HOST = "https://trinity-projects.org";
+const SITE_TITLE = "Trinity Projects";
 const SITE_TITLE_SEPARATOR = " / ";
 
 export default defineConfigWithTheme<ThemeConfig>({
